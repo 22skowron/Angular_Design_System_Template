@@ -1,0 +1,19 @@
+// Angular Material theme reset should be imported before the import of root level CSS variables
+@import "design-system/angular-material-theme-reset";
+@import "design-system/shape/shape";
+@import "design-system/themes/light";
+@import "design-system/typography/typography";
+@import "design-system/typography/typography_mixins";
+
+:root {
+}
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
